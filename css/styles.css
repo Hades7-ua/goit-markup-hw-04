@@ -163,13 +163,22 @@ img {
   color: #2196f3;
 }
 
+.auth-nav-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* hero */
 .hero {
-  /* height: 600px; */
+  height: 600px;
+  max-width: 1600px;
   background-color: #2f303a;
   padding: 200px 0px;
   color: var(--primary-white-color);
   text-align: center;
+  background-image: url(../images/Img.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {

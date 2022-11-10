@@ -106,7 +106,6 @@ img {
 }
 
 .container.footer {
-  display: block;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -166,6 +165,11 @@ img {
 .auth-nav-icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
 }
 
 /* hero */
@@ -280,8 +284,9 @@ img {
 
 .team-list-item {
   background-color: var(--primary-white-color);
-  box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2), 1px 0px 1px rgba(0, 0, 0, 0.14),
-    3px 0px 1px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 4px 4px;
 }
 .list-title {
   color: var(--title-text-color);
@@ -388,6 +393,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin-bottom: 20px;
 }
 
 .footer-block {
@@ -426,7 +432,7 @@ img {
 .clients-link:hover {
   color: var(--accent-color);
   background-color: var(--primary-white-color);
-  border: 1px solid blue;
+  border: 1px solid var(--accent-color);
 }
 
 .clients-icon {
@@ -475,7 +481,7 @@ img {
 }
 
 .projects-list:hover {
-  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25), 4px 0px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button:hover,
